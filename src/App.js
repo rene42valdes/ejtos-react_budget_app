@@ -38,10 +38,10 @@ const App = () => {
                     </div>
                 </div>
                 <div className='row mt-3'>
-					<div className='col-sm'>
-						<AllocationForm />
-					</div>
-				</div>
+		    <div className='col-sm'>
+			<AllocationForm />
+		    </div>
+		</div>
             </div>
         </AppProvider>
     );
