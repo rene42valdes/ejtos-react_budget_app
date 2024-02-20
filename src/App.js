@@ -3,11 +3,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { AppProvider } from './context/AppContext';
 import Budget from './components/Budget';
-import RemainingBudget from './components/Remaining';
-import ExpenseTotal from './components/ExpenseTotal';
+import ExpenseItem from './components/ExpenseItem';
 import ExpenseList from './components/ExpenseList';
+import ExpenseTotal from './components/ExpenseTotal';
+import Remaining from './components/Remaining';
 import AllocationForm from './components/AllocationForm';
-
 
 const App = () => {
     return (
